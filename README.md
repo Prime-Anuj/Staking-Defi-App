@@ -179,25 +179,14 @@ npx hardhat test test/Staking.test.js
 
 **Recommendation**: Use Amoy testnet for development and testing due to cost efficiency.
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-Special thanks to **Shaswat Notiyal Sir** for the constant encouragement, motivation, and guidance throughout this project development journey.
+Special thanks to **Shaswat Nautiyal Sir** for the constant encouragement, motivation, and guidance throughout this project development journey.
 
-## 📞 Contact
 
-For questions, suggestions, or collaboration opportunities, feel free to reach out!
 
 ## 🔗 Links
 

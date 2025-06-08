@@ -238,7 +238,7 @@ return (
       </div>
       <div className="bg-gradient-to-br from-blue-100 to-purple-100 p-6 rounded-xl">
         <div className="text-sm text-gray-600 mb-2">Earned Balance</div>
-        <div className="text-3xl font-bold text-blue-600">7.89</div>
+        <div className="text-3xl font-bold text-blue-600">{earnedBalance}</div>
       </div>
       <div className="bg-gradient-to-br from-purple-100 to-indigo-100 p-6 rounded-xl">
         <div className="text-sm text-gray-600 mb-2">Staked Balance</div>

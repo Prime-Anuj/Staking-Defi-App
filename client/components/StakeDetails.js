@@ -13,8 +13,8 @@ function StakeDetails({ refreshTrigger }) {
   const [error, setError] = useState('');
   const [contractsValidated, setContractsValidated] = useState(false);
 
-  const stakingAddress = "0x6E056Cb44317Cadcf4AD3DF626614169Ae591134";
-  const rewardTokenAddress = "0xa5611388d46D4F37f9f309F14c3f4CE17cF3269A";
+  const stakingAddress = "0x3E004927B1504B65c7D0101e7b9865A034a76B4f";
+  const rewardTokenAddress = "0x3DA372c085dFAC22c90f57fc3A524dfB765Da32f";
 
   // Use refs to track the latest values for the interval
   const accountRef = useRef(account);
@@ -23,7 +23,7 @@ function StakeDetails({ refreshTrigger }) {
 
   // Update refs whenever values change
   useEffect(() => {
-    accountRef.current = account;
+    accountRef.current = account; //connected account
   }, [account]);
 
   useEffect(() => {
@@ -33,6 +33,11 @@ function StakeDetails({ refreshTrigger }) {
   useEffect(() => {
     contractsValidatedRef.current = contractsValidated;
   }, [contractsValidated]);
+
+
+
+  //smart contract function integration 
+
 
   const { runContractFunction: getRTBalance } = useWeb3Contract({
     abi: TokenAbi.abi,
@@ -57,6 +62,7 @@ function StakeDetails({ refreshTrigger }) {
 
   const formatBalance = (balance) => {
     if (!balance) return '0';
+    
     try {
       const formatted = ethers.utils.formatEther(balance.toString());
       return parseFloat(formatted).toFixed(2);
@@ -83,6 +89,7 @@ function StakeDetails({ refreshTrigger }) {
       }
       
       // Check network
+      // checks is connected network matching with wallet account network or not
       const network = await web3Provider.getNetwork();
       console.log('Connected to network:', network);
       

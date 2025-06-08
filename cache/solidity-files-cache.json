@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Projects\\project-staking\\staking-demo\\contracts\\Openzeppelin\\Context.sol": {
+    "C:\\Projects\\project-staking\\Staking-Defi-App\\contracts\\Openzeppelin\\Context.sol": {
       "lastModificationDate": 1749306914703,
       "contentHash": "7093b039d79750162610c51cd75dfce8",
       "sourceName": "contracts/Openzeppelin/Context.sol",
@@ -36,7 +36,7 @@
         "Context"
       ]
     },
-    "C:\\Projects\\project-staking\\staking-demo\\contracts\\Openzeppelin\\ERC20.sol": {
+    "C:\\Projects\\project-staking\\Staking-Defi-App\\contracts\\Openzeppelin\\ERC20.sol": {
       "lastModificationDate": 1749306914719,
       "contentHash": "3bb08d2eb38e64281a5b77f74e052f28",
       "sourceName": "contracts/Openzeppelin/ERC20.sol",
@@ -75,7 +75,7 @@
         "ERC20"
       ]
     },
-    "C:\\Projects\\project-staking\\staking-demo\\contracts\\Openzeppelin\\IERC20.sol": {
+    "C:\\Projects\\project-staking\\Staking-Defi-App\\contracts\\Openzeppelin\\IERC20.sol": {
       "lastModificationDate": 1749306914719,
       "contentHash": "57745aa42fa0a7872eba2499c32651b7",
       "sourceName": "contracts/Openzeppelin/IERC20.sol",
@@ -110,7 +110,7 @@
         "IERC20"
       ]
     },
-    "C:\\Projects\\project-staking\\staking-demo\\contracts\\Openzeppelin\\IERC20Metadata.sol": {
+    "C:\\Projects\\project-staking\\Staking-Defi-App\\contracts\\Openzeppelin\\IERC20Metadata.sol": {
       "lastModificationDate": 1749306914719,
       "contentHash": "e13da596fbf5c36b723a001996699cd2",
       "sourceName": "contracts/Openzeppelin/IERC20Metadata.sol",
@@ -147,7 +147,7 @@
         "IERC20Metadata"
       ]
     },
-    "C:\\Projects\\project-staking\\staking-demo\\contracts\\RewardToken.sol": {
+    "C:\\Projects\\project-staking\\Staking-Defi-App\\contracts\\RewardToken.sol": {
       "lastModificationDate": 1749306914719,
       "contentHash": "761fa86613bd111b7ec94ae2e45767e3",
       "sourceName": "contracts/RewardToken.sol",
@@ -184,7 +184,7 @@
         "RewardToken"
       ]
     },
-    "C:\\Projects\\project-staking\\staking-demo\\contracts\\Staking.sol": {
+    "C:\\Projects\\project-staking\\Staking-Defi-App\\contracts\\Staking.sol": {
       "lastModificationDate": 1749306914719,
       "contentHash": "9b4b62097b97668923d99d25c36c4061",
       "sourceName": "contracts/Staking.sol",
@@ -222,7 +222,7 @@
         "staking"
       ]
     },
-    "C:\\Projects\\project-staking\\staking-demo\\contracts\\Openzeppelin\\ReentrancyGuard.sol": {
+    "C:\\Projects\\project-staking\\Staking-Defi-App\\contracts\\Openzeppelin\\ReentrancyGuard.sol": {
       "lastModificationDate": 1749306914719,
       "contentHash": "a5d0f59059ee32092a8d43dc09c1ee0a",
       "sourceName": "contracts/Openzeppelin/ReentrancyGuard.sol",

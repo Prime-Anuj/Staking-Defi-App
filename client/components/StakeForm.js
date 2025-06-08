@@ -8,8 +8,8 @@ import { ArrowPathIcon } from '@heroicons/react/24/outline';
 
 function StakeForm({ onTransactionSuccess }) {
   const { account, provider } = useMoralis();
-  const stakingAddress = "0x6E056Cb44317Cadcf4AD3DF626614169Ae591134";
-  const rewardTokenAddress = "0xa5611388d46D4F37f9f309F14c3f4CE17cF3269A";
+  const stakingAddress = "0x3E004927B1504B65c7D0101e7b9865A034a76B4f";
+  const rewardTokenAddress = "0x3DA372c085dFAC22c90f57fc3A524dfB765Da32f";
 
   const { runContractFunction } = useWeb3Contract();
 
@@ -47,7 +47,7 @@ function StakeForm({ onTransactionSuccess }) {
       
       const amountToStake = data.data[0].inputResult;
       
-      if (!amountToStake || amountToStake <= 0) {
+      if (!amountToStake || amountToStake <= 0 ) {
         alert('Please enter a valid amount to stake');
         return;
       }
